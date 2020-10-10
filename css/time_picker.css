@@ -1,0 +1,39 @@
+.contain{
+    width: 300px;height: auto;display: block;
+}
+.down,.up{
+    height: 30px;width: 30px;transform: rotate(90deg);margin: 5px;margin-left: 15px;margin-top: -5px;cursor: pointer;
+}
+.up{
+    transform: rotate(-90deg);
+    margin-left: 52px;
+}
+.btn-div{
+    width: 150px;height: 30px;float: left;padding-top: 10px;overflow-y: hidden;margin-top: -25px;background-color: darkgray;
+}
+#hour,#minute{
+    color: white;font-family: 'B Yekan';font-size: 20px;text-align: center;background-color: black;padding-top: 5px;padding-bottom: 5px;
+}
+.text-div{
+    width: 148px;height: 50px;float: left;padding-top: 10px;overflow-y: hidden;background-color: darkgray;
+}
+.text-container{
+    width: 120px;margin-left: 15px;height: 40px;margin-top: -27px;padding-top: 7px;
+}
+.collon{
+    float: left;width: 4px;font-size: 20px;font-weight: bold;background-color: darkgray;height: 60px;margin-top: 0px;line-height: 60px;
+}
+#send{
+    width: 300px;margin-top: 100px;position: absolute;left: 7px;cursor: pointer;height: 40px;line-height: 40px;border: none;font-family: 'B Yekan';background-color: darkgray;box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);transition: all .3s ease-in-out;color: black;
+}
+#send:hover{
+    background-color: green;
+    color: white;
+}
+
+
+/*
+    create by majid kazemi
+    github ==> www.github.com/majidkazemi2000
+
+ */
